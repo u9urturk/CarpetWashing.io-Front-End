@@ -1,0 +1,22 @@
+.cart-summary{
+    margin-top: 5em;
+}
+
+.cImage{
+    
+    object-fit: fill;
+    width: 100%;
+    height: max-content;
+    
+}
+
+.navlogo{
+    object-fit: fill;
+    
+    width: 100px;
+}
+
+
+
+
+
