@@ -1,17 +1,17 @@
 import React from 'react'
-import CartSummary from './CartSummary'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import CommentDetail from '../pages/CommentDetail'
+import Home from '../pages/Home'
+import CartSummary from './CartSummary'
 
 
 export default function Dashboard() {
   return (
     <div>
-
+       
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<CartSummary/>} />
-          <Route exact path='/commentdetail' element={<CommentDetail/>} />
+          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/commentdetail' element={<CartSummary/>} />
         </Routes>
       </BrowserRouter>
 
