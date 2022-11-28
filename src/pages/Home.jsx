@@ -9,7 +9,7 @@ export default function Home() {
             <Container className='deneme'>
                 <Grid columns={2} padded="vertically" >
                     <Grid.Row>
-                        <Grid.Column width={8} color="grey" >
+                        <Grid.Column width={8}  >
                             <Image className='img'  centered src='https://res.cloudinary.com/dubzmvbcl/image/upload/v1669322380/unem_vdpb3f.png' size="medium"></Image>
                         </Grid.Column>
                         <Grid.Column className='par' width={8}>
